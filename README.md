@@ -63,7 +63,7 @@ the package is written in C++. Therefore, suitable compilers and related
 tools (e.g. Rtools on Windows) need to be installed in order to install
 the package from source. Additionally, we provide the file
 [bayesianVARs_0.1.3.zip](bayesianVARs_0.1.3.zip) containing the binary
-builds. E.g., on Windows you can install the package with
+builds. E.g., on Windows you can install the package in R with
 `install.packages("bayesianVARs_0.1.3.zip")`.
 
 The Python library `mpmath` is required in order to fully reproduce
@@ -71,11 +71,11 @@ The Python library `mpmath` is required in order to fully reproduce
 through the package `reticulate` (see the instructions in
 [figure_1.R](figure_1.R)).
 
-The estimation of the main results, namely the simulation study in
-Section 4.2 and the empirical application in Section 5, were carried out
-on computer cluster infrastructure with 3328 CPUs managed with the
-[Slurm Workload Manager](https://slurm.schedmd.com/). The corresponding
-R scripts are located in the folder
+The computations of the main results, more concretely the simulation
+study in Section 4.2 and the empirical application in Section 5, were
+carried out on a computer cluster with 3328 CPUs managed with the [Slurm
+Workload Manager](https://slurm.schedmd.com/). The corresponding R
+scripts are located in the folder
 [computer_cluster_scripts/](./computer_cluster_scripts/). Those scripts
 should not be executed on standard computers. The script
 [computer_cluster_scripts/simulation_study_clusterscript.R](./computer_cluster_scripts/simulation_study_clusterscript.R)
