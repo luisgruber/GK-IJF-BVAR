@@ -64,8 +64,8 @@ if(PYTHON){
 
 
 filename <- paste0(dire, if(PYTHON) "figure_1" else "figure_1_incomplete")
-#pdf(paste0(filename, ".pdf"), width = 16/1.7, height = 7/1.7)
-png(paste0(filename, ".png"), width = 16/1.7, height = 7/1.7, res = 300, units = "in")
+pdf(paste0(filename, ".pdf"), width = 16/1.7, height = 7/1.7)
+# png(paste0(filename, ".png"), width = 16/1.7, height = 7/1.7, res = 300, units = "in")
 par(mfrow=c(1,3), mar = c(4.1,4.1,1.4,1.1), mgp = c(2.3,1,0))
 plot(x , ng_cond(x, a_delta, 1),type = "l",col=3, log="y", ylim = c(0.05,(5)), xlab = bquote(phi),
      ylab = bquote("p"~(phi)), lwd = 2,
