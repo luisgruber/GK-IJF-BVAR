@@ -30,9 +30,9 @@ The main contents of the repository are the following:
   scripts.
 - `figure_[x].R`: R scripts to generate the respective figures.
 - `table_[x].R`: R scripts to generate the respective tables.
-- `bayesianVARs_0.1.3.tar.gz`: Source files of R package
+- `bayesianVARs_0.1.3.tar.gz`: Source files of the R package
   [bayesianVARs](https://luisgruber.github.io/bayesianVARs/) (0.1.3).
-- `bayesianVARs_0.1.3.zip`: `.zip` file containing the binary builds of
+- `bayesianVARs_0.1.3.zip`: A .zip file containing the binary builds of
   the R package
   [bayesianVARs](https://luisgruber.github.io/bayesianVARs/) (0.1.3).
 
@@ -67,8 +67,8 @@ builds. E.g., on Windows you can install the package in R with
 `install.packages("bayesianVARs_0.1.3.zip")`.
 
 The Python library `mpmath` is required in order to fully reproduce
-[figures/figure_1.png](./figures/figure_1.png). Via R this can be done
-through the package `reticulate` (see the instructions in
+[figures/figure_1.pdf](./figures/figure_1.pdf). In R it is possible to
+call Python via the R package `reticulate` (see the instructions in
 [figure_1.R](figure_1.R)).
 
 The computations of the main results, more concretely the simulation
